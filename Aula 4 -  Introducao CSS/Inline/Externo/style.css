@@ -1,0 +1,10 @@
+body{
+    background-color: #683f3f;
+}
+head{
+    background-color:aqua ;
+}
+head > h1{
+    text-align: center;
+    color: #a32929;
+}
