@@ -11,7 +11,9 @@ function mostrarResultado(){
     let ladoBC = ladoB + ladoC
 
 if (ladoAB > ladoC && ladoAC > ladoB && ladoBC > ladoA){
+    tipoTriangulo.style.display = "block"
     resultado.innerHTML = "LADOS VÁLIDOS PARA FORMAR UM TRIÂNGULO";
+
 
     if (ladoA == ladoB && ladoB == ladoC){
     tipoTriangulo.innerHTML = "TRIÂNGULO EQUILÁTERO"; 
@@ -24,6 +26,7 @@ if (ladoAB > ladoC && ladoAC > ladoB && ladoBC > ladoA){
     }                
 }
 else {
+    tipoTriangulo.style.display = "none"
     resultado.innerHTML = "LADOS INVALIDOS PARA FORMAÇÃO DE UM TRIÂNGULO";
 }
 
