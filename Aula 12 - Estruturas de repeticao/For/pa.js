@@ -5,5 +5,12 @@
 // A quantidade de termos que deseja exibir (n).
 
 const input = require("prompt-sync") ();
-let numero = 0
-let
+
+console.log("PROGRESSÃO ARITIMÉDICA");
+let razao = 2
+let primeiroTermo = 10
+let quantidadeTermos =10
+
+for (let i = 0 i <quantidade )
+
+
