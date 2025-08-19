@@ -11,6 +11,10 @@ let razao = 2
 let primeiroTermo = 10
 let quantidadeTermos =10
 
-for (let i = 0 i <quantidade )
+for (let i = 0 i <quantidadeTermos; i++){
+    let pa = primeiro _i * razao ;
+    console.log(pa);
+    
+}
 
 
